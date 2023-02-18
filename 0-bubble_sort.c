@@ -5,7 +5,6 @@
  * Bubble sort algorithm
  * @array: The array to be sorted
  * @size: The size of the array
- *
  * Return: void
  */
 void bubble_sort(int *array, size_t size)
@@ -22,7 +21,7 @@ void bubble_sort(int *array, size_t size)
 		new_n = 0;
 		for (i = 0; i < n - 1; i++)
 		{
-			if (array[i] . array[i + 1])
+			if (array[i] > array[i + 1])
 			{
 				swap = array[i];
 				array[i] = array[i + 1];

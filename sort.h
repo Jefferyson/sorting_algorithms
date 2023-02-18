@@ -8,7 +8,7 @@
  *
  * @n: integer stored in the node
  * @prev: pointer to the previous element of the list
- * @next: pointer to the next element of the list
+ * @next: Pointer to the next element of the list
  */
 typedef struct listint_s
 {
@@ -32,4 +32,4 @@ void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
 
-#endif /* _SORT_H */
+#endif /* _SORT_H_ */
